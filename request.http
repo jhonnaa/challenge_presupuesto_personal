@@ -1,0 +1,29 @@
+###
+GET http://localhost:3008 HTTP/1.1
+
+###
+POST http://localhost:3008  HTTP/1.1
+Content-Type:  application/json
+
+{
+    "concept":"cine",
+    "mount": 200,
+    "date": "2020-11-11",
+    "type": "egreso"
+}
+
+###
+
+DELETE http://localhost:3008/3 HTTP/1.1
+###
+
+
+PUT http://localhost:3008/4 HTTP/1.1
+Content-Type:  application/json
+
+{
+    "concept":"asado",
+    "mount": 2000,
+    "date": "2020-10-11",
+    "type": "egreso"
+}
